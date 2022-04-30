@@ -1,12 +1,8 @@
 ---
-title: "Course Project 1"
-author: "Marco Lopez"
-date: "31/3/2022"
-output:
-  html_document: default
-  pdf_document: default
-editor_options: 
-  chunk_output_type: console
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
 ---
 
 ## Loading and preprocessing the data
