@@ -35,6 +35,8 @@ medD <- median(TStepforday$steps, na.rm = TRUE)
 summary(meanS)
 summary(medD)
 ```
+![plot of chunk unnamed-chunk-3](figure/meanS.png)
+![plot of chunk unnamed-chunk-3](figure/medD.png)
 ## What is the average daily activity pattern?
 ## Make a time series plot
 ## Time series plot of the average number of steps taken (averaged across all days) versus the 5-minute intervals
