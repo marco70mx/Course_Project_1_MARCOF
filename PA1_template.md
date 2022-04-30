@@ -97,4 +97,4 @@ miss_Data$dateType <-  ifelse(as.POSIXlt(miss_Data$date)$wday %in% c(0,6), 'week
 AVG <- aggregate(steps ~ interval + dateType, data=miss_Data, mean)
 ggplot(AVG, aes(interval, steps)) + geom_line() + facet_grid(dateType ~ .) + xlab("5-minute interval") + ylab("avarage number of steps")
 ```
-![plot of chunk unnamed-chunk-3](figure/Histogram_of_the_total_number_of_steps_taken_each_day_after_missing_values.png)
+![plot of chunk unnamed-chunk-3](figure/Panel_plot_comparing_the average_number_of_steps_taken_per_5-minute.png)
