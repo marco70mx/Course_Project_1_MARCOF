@@ -33,6 +33,7 @@ meanS <- mean(TStepforday$steps, na.rm = TRUE)
 medD <- median(TStepforday$steps, na.rm = TRUE)
 summary(meanS)
 summary(medD)
+print(c("meanS",medD))
 ```
 ## What is the average daily activity pattern?
 ## Make a time series plot
