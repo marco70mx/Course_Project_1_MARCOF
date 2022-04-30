@@ -72,6 +72,8 @@ impMedSteps <- median(iStepsbInt$steps, na.rm = TRUE)
 diffMean = impMeanSteps - meanSteps
 diffTotal = sum(iStepsbInt$steps) - sum(TStepforday$steps)
 ```
+![plot of chunk unnamed-chunk-3](figure/Histogram_of_the_total_number_of_steps_taken_each_day_after_missing_values.png)
+
 ## Are there differences in activity patterns between weekdays and weekends?
 ## Create a new factor variable in the dataset with two levels – “weekday” and “weekend”
 ```{r}
