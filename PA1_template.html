@@ -213,7 +213,15 @@ ggplot(data = meanSteps, aes(x = interval, y = steps)) + geom_line() + ggtitle(&
 </div>
 <div id="report-give-the-5-minute-interval-that-on-average-contains-the-maximum-number-of-steps" class="section level2">
 <h2>Report give the 5-minute interval that, on average, contains the maximum number of steps</h2>
-<pre class="r"><code>maxstepinterval &lt;- meanSteps[which.max(meanSteps$steps),]</code></pre>
+<pre class="r"><code>maxstepinterval &lt;- meanSteps[which.max(meanSteps$steps),]
+summary(maxstepinterval)</code></pre>
+<pre><code>##     interval       steps      
+##  Min.   :835   Min.   :206.2  
+##  1st Qu.:835   1st Qu.:206.2  
+##  Median :835   Median :206.2  
+##  Mean   :835   Mean   :206.2  
+##  3rd Qu.:835   3rd Qu.:206.2  
+##  Max.   :835   Max.   :206.2</code></pre>
 </div>
 <div id="calculate-and-report-the-total-number-of-missing-values" class="section level2">
 <h2>Calculate and report the total number of missing values</h2>

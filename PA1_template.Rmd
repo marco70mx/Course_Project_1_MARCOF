@@ -48,6 +48,7 @@ ggplot(data = meanSteps, aes(x = interval, y = steps)) + geom_line() + ggtitle("
 ## Report give the 5-minute interval that, on average, contains the maximum number of steps
 ```{r}
 maxstepinterval <- meanSteps[which.max(meanSteps$steps),]
+summary(maxstepinterval)
 ```
 ## Calculate and report the total number of missing values
 ```{r}
