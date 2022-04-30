@@ -44,7 +44,7 @@ library(ggplot2)
 meanSteps <- aggregate(steps ~ interval, Data, mean)
 ggplot(data = meanSteps, aes(x = interval, y = steps)) + geom_line() + ggtitle("Average Daily Activity Pattern") + xlab("5-minute Interval") + ylab("Average Number of Steps") + theme(plot.title = element_text(hjust = 0.5))
 ```
-
+![plot of chunk unnamed-chunk-3](figure/Time_series_plot_of_the_average_number_of_steps_taken.png)
 
 ## Report give the 5-minute interval that, on average, contains the maximum number of steps
 ```{r}
