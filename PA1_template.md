@@ -9,9 +9,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 ## Loading and preprocessing the data
 ```{r}
 Data <- read.csv(file="activity.csv", header=TRUE)
