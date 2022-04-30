@@ -22,7 +22,7 @@ Data <- read.csv(file="activity.csv", header=TRUE)
 TStepforday <- aggregate(steps ~ date, Data, FUN=sum)
 hist(TStepforday$steps, main = "Total Steps per Day", xlab = "Number of Steps")
 ```
-![plot of chunk unnamed-chunk-3](figure/Histogram_of_the_total_number_of_steps_taken_each_day_1) 
+![plot of chunk unnamed-chunk-3](figure/Histogram_of_the_total_number_of_steps_taken_each_day_1.png) 
 
 
 
